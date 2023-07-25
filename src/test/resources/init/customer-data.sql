@@ -1,0 +1,5 @@
+INSERT INTO CUSTOMER_ENTITY ( first_name,last_name, date_of_birth,email,phone) VALUES ( 'Roger', 'Clara','2000-10-01', 'alicia.marty@gmail.com', '220-8090-2020');
+INSERT INTO CUSTOMER_ENTITY ( first_name,last_name, date_of_birth,email,phone) VALUES ( 'Camille', 'Guérin','2000-10-01', 'rayan.sanchez@yahoo.fr','220-8090-2020');
+INSERT INTO CUSTOMER_ENTITY ( first_name,last_name, date_of_birth,email,phone) VALUES ( 'Julien', 'Mael','2000-10-01', 'laura.royer@yahoo.fr','220-8090-2020');
+INSERT INTO CUSTOMER_ENTITY ( first_name,last_name, date_of_birth,email,phone) VALUES ( 'Gérard','Mael','2000-10-01', 'victor.dupuis@hotmail.fr','220-8090-2020');
+INSERT INTO CUSTOMER_ENTITY ( first_name,last_name, date_of_birth,email,phone) VALUES ( 'Dubois' 'Anaïs','2000-10-01', 'alice.lemoine@hotmail.fr','220-8090-2020');
