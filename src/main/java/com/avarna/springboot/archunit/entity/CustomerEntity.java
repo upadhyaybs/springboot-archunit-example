@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 
+import org.hibernate.annotations.GeneratorType;
+
 @Data
 @NoArgsConstructor
 @Entity
@@ -16,7 +18,7 @@ final public class CustomerEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GeneratorType.IDENTITY)
     private Long id;
     private String firstName;
     private String lastName;
